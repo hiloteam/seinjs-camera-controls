@@ -1,6 +1,6 @@
 {
   "name": "seinjs-camera-controls",
-  "version": "0.8.12",
+  "version": "0.8.13",
   "description": "Camera controllers for Sein.js.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

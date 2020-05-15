@@ -580,9 +580,9 @@ export default class CameraOrbitControlComponent extends Sein.Component<ICameraO
   }
 
   private onResize = () => {
-    const {screenWidth, screenHeight} = this.getGame();
+    const {width, height} = this.getGame().bound;
 
-    this._radius = (screenWidth + screenHeight) / 4;
+    this._radius = (width + height) / 4;
   }
 
   private onMouseDown = (event: Sein.IMouseEvent) => {
